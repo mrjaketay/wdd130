@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #EB9D0C;
-    --accent1-color: #72E4FD;
-    --accent2-color: #FFD900;
+    --primary-color: #023047;
+    --secondary-color: #8ECAE6;
+    --accent1-color: #FFB703;
+    --accent2-color: #FB8500;
 
-    --heading-font: swap;
+    --heading-font: Serif;
     --paragraph-font: display;
 
-    --nav-background-color: #2CABFF;
-    --nav-link-color: #FFFFFF;
-    --nav-hover-link-color: #72E4FD;
-    --nav-hover-background-color: #2CABFF;    
+    --nav-background-color: #023047;
+    --nav-link-color: #8ECAE6;
+    --nav-hover-link-color: #023047;
+    --nav-hover-background-color: #219EBC;    
 }
 
 body {
