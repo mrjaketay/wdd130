@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+nav {
+    padding-left: 1rem;
+}
+
 main {
     max-width: 840px;
 }
@@ -19,6 +23,10 @@ main img {
 
 }
 
+main h1 {
+    padding-left: 1rem;
+}
+
 aside {
     width: 20em;
     text-align: center;
@@ -28,7 +36,7 @@ aside {
 aside h2 {
     position: absolute;
     top: 50px;
-    left: 120px;
+    left: 110px;
     color: #000;
 }
 
