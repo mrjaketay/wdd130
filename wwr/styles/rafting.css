@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    width: 900px;
+}
+
+:root {
+    --primary-color: #023047;
+    --secondary-color: #8ECAE6;
+    --accent1-color: #FFB703;
+    --accent2-color: #FB8500;
+
+    --heading-font: Serif;
+    --paragraph-font: display;
+
+    --nav-background-color: #023047;
+    --nav-link-color: #8ECAE6;
+    --nav-hover-link-color: #023047;
+    --nav-hover-background-color: #219EBC;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* h1 {
+    position: absolute;
+} */
+
+p {
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
+
+article p {
+    float: left;
+}
+/* Class Selectors */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
