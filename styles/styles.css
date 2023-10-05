@@ -40,7 +40,10 @@ main img {
 
 main h1 {
     padding-left: 1rem;
-}
+    border-bottom: 1px solid steelblue;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}  
 
 aside {
     width: 20em;
@@ -56,6 +59,7 @@ aside h2 {
     top: 50px;
     left: 110px;
     color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
 }
 
 aside img {
